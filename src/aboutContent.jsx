@@ -1,0 +1,10 @@
+function AboutContent(){
+    return (<div className="bg-blue-900 text white m-10 rounded-lg font-['Google_Sans'] p-10">
+        <h1 className="text-yellow-300 font-medium text-8xl mb-10">About us</h1>
+        <p className="text-cyan-100 mb-10 text-2xl">Globe Solutions was founded with a simple mission to help growing businesses turn complex technology into a competitive advantage. We believe innovation should be practical scalable and accessible rather than overwhelming. From startups taking their first steps to enterprises managing global operations we design solutions that adapt to our clients’ needs and grow alongside them.</p>
+        <p className="text-cyan-100 mb-10 text-2xl">Our product ecosystem is built to streamline operations and unlock efficiency at every level. Globe Solutions offers powerful CRM and ERP platforms that centralize customer relationships automate workflows and provide real time insights into business performance. By combining intuitive design with robust functionality our software enables teams to work smarter make faster decisions and maintain full visibility across their organizations.</p>
+        <p className="text-cyan-100 mb-10 text-2xl">At the core of our technology is a strong focus on AI driven solutions and scalable cloud architecture. We provide intelligent automation predictive analytics and custom AI tools that help businesses anticipate challenges and seize opportunities. Our cloud services including load balancers secure cloud storage and architecture scaling are engineered for reliability performance and seamless growth in high demand environments.</p>
+        <p className="text-cyan-100 mb-10 text-2xl">To support modern digital commerce Globe Solutions also delivers secure and flexible payment integration services including Apple Pay and Google Pay integrations. Our systems are designed to ensure fast transactions high availability and enterprise grade security allowing businesses to focus on growth while we handle the infrastructure behind the scenes. At Globe Solutions we don’t just build software we build long term technology partnerships.</p>
+    </div>)
+}
+export default AboutContent
