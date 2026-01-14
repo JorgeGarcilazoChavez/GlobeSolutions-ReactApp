@@ -31,16 +31,44 @@ function Dashboard(){
                     <div className="font-medium text-lg text-gray-500">Africa {random % 6 + 1}</div> 
                 </div>
 
-                <div className="flex flex-grow flex-col border-l border-b p-5 gap-2 ml-auto">
-                    <div className="bg-green-600 w-32 text-white p-1"> PulseCRM</div>
-                    <div className="bg-red-600 w-48 text-white p-1"> AeroBalance</div>
-                    <div className="bg-blue-600 w-40 text-white p-1"> EngageERP</div>
-                    <div className="bg-purple-600 w-24 text-white p-1"> ScaleForge</div> 
-                <div className="flex"> 
-                    <div>0</div>
-                    <div className="ml-auto">150</div>
+            <div className="mt-auto w-full max-w-3xl p-6 rounded-xl border">
+
+            <h2 className="text-xl font-semibold mb-6">Active Product Events</h2>
+
+            <div className="relative h-64 flex items-end justify-between gap-6 px-6 border-l border-b">
+
+                <div className="absolute left-0 top-0 h-full flex flex-col justify-between text-xs text-gray-400 -translate-x-6">
+                <span>150</span>
+                <span>100</span>
+                <span>50</span>
+                <span>0</span>
                 </div>
+
+                <div className="flex flex-col items-center gap-2">
+                <div className="w-12 bg-blue-600 rounded-t-md h-52" />
+                <span className="text-sm font-medium">PulseCRM</span>
                 </div>
+
+                <div className="flex flex-col items-center gap-2">
+                <div className="w-12 bg-green-600 rounded-t-md h-36" />
+                <span className="text-sm font-medium">EngageERP</span>
+                </div>
+
+                <div className="flex flex-col items-center gap-2">
+                <div className="w-12 bg-purple-600 rounded-t-md h-64" />
+                <span className="text-sm font-medium">AeroBalance</span>
+                </div>
+
+                <div className="flex flex-col items-center gap-2">
+                <div className="w-12 bg-orange-600 rounded-t-md h-20" />
+                <span className="text-sm font-medium">ScaleForge</span>
+                </div>
+            </div>
+
+            <div className="mt-4 text-xs text-gray-500">
+                Max events per product: <span className="font-semibold">150</span>
+            </div>
+            </div>
 
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
