@@ -19,7 +19,11 @@ const router = createBrowserRouter([
   {path:'/signup', element:<SignUp />},
   {path:'/dashboard', element:<ProtectedRoute><DashboardApp /></ProtectedRoute>}
 
-]);
+],
+ {
+    basename: "/GlobeSolutions-ReactApp",
+  }
+);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

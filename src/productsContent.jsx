@@ -14,7 +14,7 @@ function ProductsContent(){
   }, [location.hash]);
 
     return (<div className="bg-blue-900 text white m-10 rounded-lg font-['Google_Sans'] p-10">
-      <div className="flex items-center">
+      <div className="hidden md:flex items-center">
         <h1 className="text-blue-400 font-medium text-8xl mb-10">Our Products</h1>
         <div className="ml-auto bg-yellow-300  border-yellow-300 text-2xl rounded-full font-medium text-blue-950 p-3 hover:bg-yellow-200 hover:text-blue-300 hover:shadow-xl/30"><PopUp PopUpBox={PopUpContent}>Get a Quote!</PopUp></div>
       </div>
